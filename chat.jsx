@@ -9,7 +9,7 @@ import { faPaperPlane, faComments } from "@fortawesome/free-solid-svg-icons";
 import EmojiPicker from "emoji-picker-react";
 import { faSmile } from "@fortawesome/free-solid-svg-icons";
 import { doc, updateDoc, deleteDoc } from "firebase/firestore";
-import { FaSun, FaMoon } from "react-icons/fa";  // Importing the icons
+import { FaSun, FaMoon } from "react-icons/fa";  // Importing the icons here
 import "./login.css";
   
 

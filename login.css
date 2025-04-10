@@ -89,7 +89,7 @@ body {
 }
 
 .message-container {
-  max-width: 80%; /* Ensure messages don't take full width */
+  max-width: 80%; /* Ensure messages don't take full width here*/
   word-wrap: break-word; /* Break long words */
   overflow-wrap: break-word; /* Ensure long words wrap correctly */
   white-space: pre-wrap; /* Preserve new lines and wrap text */

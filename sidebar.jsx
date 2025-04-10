@@ -21,7 +21,7 @@ const Sidebar = ({ currentUser, selectUser }) => {
     return () => unsubscribe();
   }, []);
 
-  // Separate logged-in user
+  // Separate logged-in user here
   const loggedInUser = users.find((user) => user.id === currentUser?.uid);
   const otherUsers = users.filter((user) => user.id !== currentUser?.uid);
 
