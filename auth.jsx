@@ -13,7 +13,7 @@ const Auth = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      {/* Hero Section here*/}
+      {/* Hero Section here prob*/}
       <motion.div
         className="hero-section"
         initial={{ y: -40, opacity: 0 }}

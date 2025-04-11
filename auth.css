@@ -55,6 +55,7 @@
 
   .auth-container h2 {
     font-size: 24px;
+
   }
   
 
@@ -63,7 +64,7 @@
   .auth-container .toggle-auth {
     font-size: 16px;
   }
-  /* Style for clickable toggle (Sign up Up / Login) text here*/
+  /* Style for clickable toggle (Sign up Up / Login) text here and lets solve the proplem*/
 .toggle-auth span {
     color: #ff4b79; 
     font-weight: bold;

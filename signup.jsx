@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { registerUser } from "./firebase";
 import './auth.css';
-// you are welcome 
+// you are welcome provlem
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

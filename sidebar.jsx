@@ -14,7 +14,7 @@ const Sidebar = ({ currentUser, selectUser }) => {
         ...doc.data(),
       }));
 
-      console.log("Fetched users from Firestore:", userList); // Log fetched users
+      console.log("Fetched users from Firestore:", userList); // Log fetched users problem
       setUsers(userList);
     });
 

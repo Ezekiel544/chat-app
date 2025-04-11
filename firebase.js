@@ -30,7 +30,7 @@ const registerUser = async (email, password, navigate) => {
     const user = userCredential.user;
     console.log("User registered:", user);
     
-    // Store user in Firestore here
+    // Store user in Firestore here solve 
     await setDoc(doc(db, "users", user.uid), {
       uid: user.uid,
       email: user.email,

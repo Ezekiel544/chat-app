@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Auth from "./auth";
 import Chat from "./chat";
 import Sidebar from './sidebar'
-// you are welcome here 
+// you are welcome here problem
 import "./login.css";
 
 const Home = () => {
